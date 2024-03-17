@@ -1,0 +1,88 @@
+
+@import url("reset.css");
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background-color: black;
+}
+
+p {
+    padding: 10px;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+hr{
+  margin: 10 auto;
+}
+
+.main-image {
+    text-align: center;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+iframe{
+  text-align: center;
+  padding: 20px;
+}
+figure {
+
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px; 
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+hr{
+  width: 2000px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#header {
+    float: left;
+    height: auto;
+    width: 1500px;
+    text-align: center;
+    background: black;
+}
+
+#content {
+    float: left;
+    background: #33CCFF;
+    width: 500px;
+    margin-bottom: 20px
+}
+
+#leftcolumn {
+    background: #33CCFF;
+    width: 500px;
+    float: left;
+    margin-bottom: 20px
+}
+
+#rigthcolumn {
+  background: #33CCFF;
+  width: 450px;
+  float: left;
+  margin-bottom: 20px
+}
